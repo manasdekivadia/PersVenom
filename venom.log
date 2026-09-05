@@ -1,20 +1,500 @@
-2026-08-03 14:00:52 Attached (read/inject mode) to existing session: remote1
-2026-08-03 14:00:57 Sending: echo "=== HELLO option running against $TARGET_IP:$CHECK_PORT ==="
-2026-08-03 14:00:57 Command finished (exit unknown)
-2026-08-03 14:00:57 Sending: whoami
-2026-08-03 14:00:58 Command finished (exit unknown)
-2026-08-03 14:00:58 Sending: echo "The payload path is : $PAYLOAD_PATH"
-2026-08-03 14:00:58 Command finished (exit unknown)
-2026-08-03 14:01:52 Wrapper session ended (existing SSH/tmux session left running).
-2026-08-03 14:06:07 Attached (read/inject mode) to existing session: remote1
-2026-08-03 14:06:10 Sending: echo "=== HELLO option running against $TARGET_IP:$CHECK_PORT ==="
-2026-08-03 14:06:11 Command finished (exit unknown)
-2026-08-03 14:06:11 Sending: whoami
-2026-08-03 14:06:11 Command finished (exit unknown)
-2026-08-03 14:06:11 Sending: echo "The payload path is : $PAYLOAD_PATH"
-2026-08-03 14:06:12 Command finished (exit unknown)
-2026-08-03 14:08:47 Wrapper session ended (existing SSH/tmux session left running).
-2026-08-03 14:10:56 Attached (read/inject mode) to existing session: remote1
-2026-08-03 14:11:35 Wrapper session ended (existing SSH/tmux session left running).
-2026-08-03 14:11:39 Attached (read/inject mode) to existing session: remote1
-2026-08-03 14:12:22 Wrapper session ended (existing SSH/tmux session left running).
+2026-09-05 15:26:18 Attached to existing tmux target: temp
+2026-09-05 15:26:50 Wrapper session ended. Existing tmux session left running.
+2026-09-05 15:30:10 Attached to existing tmux target: temp
+2026-09-05 15:30:12 Detected target error for command: 
+┌──(elliot㉿fsociety)-[~/Desktop/Project/PersVenom]
+└─$ ssh root@192.168.56.107
+root@192.168.56.107's password:
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>hostname
+Testing
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_14180_22__$?
+__WRAP_DONE_14180_22__$?
+
+root@TESTING C:\Users\root>uname -a
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_15466_23__$?
+__WRAP_DONE_15466_23__$?
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_27722_23__$?
+__WRAP_DONE_27722_23__$?
+
+root@TESTING C:\Users\root>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+
+Host Name:                 TESTING
+OS Name:                   Microsoft Windows Embedded 8.1 Industry Pro
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          root
+Registered Organization:
+Product ID:                00264-00000-00001-AA809
+Original Install Date:     8/1/2026, 7:48:23 PM
+System Boot Time:          9/6/2026, 12:21:18 AM
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2296 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 12/1/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,048 MB
+Available Physical Memory: 1,587 MB
+Virtual Memory: Max Size:  3,200 MB
+Virtual Memory: Available: 2,619 MB
+Virtual Memory: In Use:    581 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\TESTING
+Hotfix(s):                 N/A
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Desktop Adapter
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.56.100
+                                 IP address(es)
+                                 [01]: 192.168.56.107
+                                 [02]: fe80::dc63:6603:a094:6989
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>pwdi am
+'pwdi' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>id
+'id' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+Loading Processor Information ...
+2026-09-05 15:30:13 Detected target error for command: 
+┌──(elliot㉿fsociety)-[~/Desktop/Project/PersVenom]
+└─$ ssh root@192.168.56.107
+root@192.168.56.107's password:
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>hostname
+Testing
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_14180_22__$?
+__WRAP_DONE_14180_22__$?
+
+root@TESTING C:\Users\root>uname -a
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_15466_23__$?
+__WRAP_DONE_15466_23__$?
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_27722_23__$?
+__WRAP_DONE_27722_23__$?
+
+root@TESTING C:\Users\root>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+
+Host Name:                 TESTING
+OS Name:                   Microsoft Windows Embedded 8.1 Industry Pro
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          root
+Registered Organization:
+Product ID:                00264-00000-00001-AA809
+Original Install Date:     8/1/2026, 7:48:23 PM
+System Boot Time:          9/6/2026, 12:21:18 AM
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2296 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 12/1/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,048 MB
+Available Physical Memory: 1,587 MB
+Virtual Memory: Max Size:  3,200 MB
+Virtual Memory: Available: 2,619 MB
+Virtual Memory: In Use:    581 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\TESTING
+Hotfix(s):                 N/A
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Desktop Adapter
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.56.100
+                                 IP address(es)
+                                 [01]: 192.168.56.107
+                                 [02]: fe80::dc63:6603:a094:6989
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>pwdi am
+'pwdi' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>id
+'id' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+
+Host Name:                 TESTING
+OS Name:                   Microsoft Windows Embedded 8.1 Industry Pro
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          root
+Registered Organization:
+Product ID:                00264-00000-00001-AA809
+Original Install Date:     8/1/2026, 7:48:23 PM
+System Boot Time:          9/6/2026, 12:21:18 AM
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2296 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 12/1/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\Harddis
+2026-09-05 15:30:14 Detected target error for command: 
+┌──(elliot㉿fsociety)-[~/Desktop/Project/PersVenom]
+└─$ ssh root@192.168.56.107
+root@192.168.56.107's password:
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>hostname
+Testing
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_14180_22__$?
+__WRAP_DONE_14180_22__$?
+
+root@TESTING C:\Users\root>uname -a
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_15466_23__$?
+__WRAP_DONE_15466_23__$?
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_27722_23__$?
+__WRAP_DONE_27722_23__$?
+
+root@TESTING C:\Users\root>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+
+Host Name:                 TESTING
+OS Name:                   Microsoft Windows Embedded 8.1 Industry Pro
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          root
+Registered Organization:
+Product ID:                00264-00000-00001-AA809
+Original Install Date:     8/1/2026, 7:48:23 PM
+System Boot Time:          9/6/2026, 12:21:18 AM
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2296 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 12/1/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,048 MB
+Available Physical Memory: 1,587 MB
+Virtual Memory: Max Size:  3,200 MB
+Virtual Memory: Available: 2,619 MB
+Virtual Memory: In Use:    581 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\TESTING
+Hotfix(s):                 N/A
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Desktop Adapter
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.56.100
+                                 IP address(es)
+                                 [01]: 192.168.56.107
+                                 [02]: fe80::dc63:6603:a094:6989
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>pwdi am
+'pwdi' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>id
+'id' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+
+Host Name:                 TESTING
+OS Name:                   Microsoft Windows Embedded 8.1 Industry Pro
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          root
+Registered Organization:
+Product ID:                00264-00000-00001-AA809
+Original Install Date:     8/1/2026, 7:48:23 PM
+System Boot Time:          9/6/2026, 12:21:18 AM
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2296 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 12/1/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,048 MB
+Available Physical Memory: 1,584 MB
+Virtual Memory: Max Size:  3,200 MB
+Virtual Memory: Available: 2,616 MB
+Virtual Memory: In Use:    584 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\TESTING
+Hotfix(s):                 N/A
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Desktop Adapter
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.56.100
+                                 IP address(es)
+                                 [01]: 192.168.56.107
+                                 [02]: fe80::dc63:6603:a094:6989
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>pwdi am
+'pwdi' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>
+2026-09-05 15:30:15 Detected target error for command: 
+┌──(elliot㉿fsociety)-[~/Desktop/Project/PersVenom]
+└─$ ssh root@192.168.56.107
+root@192.168.56.107's password:
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>
+root@TESTING C:\Users\root>hostname
+Testing
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_14180_22__$?
+__WRAP_DONE_14180_22__$?
+
+root@TESTING C:\Users\root>uname -a
+'uname' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_15466_23__$?
+__WRAP_DONE_15466_23__$?
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>echo __WRAP_DONE_27722_23__$?
+__WRAP_DONE_27722_23__$?
+
+root@TESTING C:\Users\root>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+
+Host Name:                 TESTING
+OS Name:                   Microsoft Windows Embedded 8.1 Industry Pro
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          root
+Registered Organization:
+Product ID:                00264-00000-00001-AA809
+Original Install Date:     8/1/2026, 7:48:23 PM
+System Boot Time:          9/6/2026, 12:21:18 AM
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2296 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 12/1/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,048 MB
+Available Physical Memory: 1,587 MB
+Virtual Memory: Max Size:  3,200 MB
+Virtual Memory: Available: 2,619 MB
+Virtual Memory: In Use:    581 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\TESTING
+Hotfix(s):                 N/A
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Desktop Adapter
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.56.100
+                                 IP address(es)
+                                 [01]: 192.168.56.107
+                                 [02]: fe80::dc63:6603:a094:6989
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>pwdi am
+'pwdi' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>id
+'id' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>cls
+
+root@TESTING C:\Users\root>systeminfo
+
+Host Name:                 TESTING
+OS Name:                   Microsoft Windows Embedded 8.1 Industry Pro
+OS Version:                6.3.9600 N/A Build 9600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          root
+Registered Organization:
+Product ID:                00264-00000-00001-AA809
+Original Install Date:     8/1/2026, 7:48:23 PM
+System Boot Time:          9/6/2026, 12:21:18 AM
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2296 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 12/1/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-08:00) Pacific Time (US & Canada)
+Total Physical Memory:     2,048 MB
+Available Physical Memory: 1,584 MB
+Virtual Memory: Max Size:  3,200 MB
+Virtual Memory: Available: 2,616 MB
+Virtual Memory: In Use:    584 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\TESTING
+Hotfix(s):                 N/A
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Desktop Adapter
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     192.168.56.100
+                                 IP address(es)
+                                 [01]: 192.168.56.107
+                                 [02]: fe80::dc63:6603:a094:6989
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+root@TESTING C:\Users\root>whoami
+testing\root
+
+root@TESTING C:\Users\root>pwdi am
+'pwdi' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>id
+'id' is not recognized as an internal or external command,
+operable program or batch file.
+
+root@TESTING C:\Users\root>
+2026-09-05 15:30:33 Wrapper session ended. Existing tmux session left running.
